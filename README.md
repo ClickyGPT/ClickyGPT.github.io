@@ -1,6 +1,9 @@
 ---
 
 # ClickyGPT Web Applications 🧠
+
+---
+
 Welcome to the **ClickyGPT** suite of homemade AI-driven web applications!  
 Start your AI journey, explore advanced prompt tools, simulators, and even some unique monetization solutions.  
 **[Visit ClickyGPT.com](https://clickygpt.com) for more!**
