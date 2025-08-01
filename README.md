@@ -1,11 +1,4 @@
-        ---
-        layout: default
-        title: ClickyGPT Web Applications
-        ---
-
-        # ClickyGPT Web Applications 🧠
-        ... (rest of your README content)
-
+# ClickyGPT Web Applications 🧠
 
 Welcome to the **ClickyGPT** suite of homemade AI-driven web applications!  
 Start your AI journey, explore advanced prompt tools, simulators, and even some unique monetization solutions.  
@@ -53,9 +46,7 @@ Start your AI journey, explore advanced prompt tools, simulators, and even some 
 
 ---
 
-## 🖇️ VISIT www.ClickyGPT.com 🖇️
-
-A constant signal of weird brilliance:
+## 📡 A constant signal of weird brilliance 📡
 
 - 🧠 Share tools
 - 🧪 Steal prompts
