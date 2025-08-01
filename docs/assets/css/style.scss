@@ -3,20 +3,24 @@
 
 @import "{{ site.theme }}";
 
-/* ClickyGPT Clean Professional Theme - White & Yellow */
+/* ClickyGPT IBM Terminal Aesthetic - Orange & Yellow on Nubian Dark Chocolate */
 
 :root {
-  /* Clean Color Palette */
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2a2a2a;
-  --bg-gradient-start: #1e1e1e;
-  --bg-gradient-end: #252525;
+  /* Nubian Dark Chocolate Palette */
+  --bg-primary: #2a1810;
+  --bg-secondary: #3d2817;
+  --bg-tertiary: #4a3218;
+  --bg-gradient-start: #2a1810;
+  --bg-gradient-end: #3d2817;
   
-  /* Professional Colors */
-  --accent-yellow: #ffcc00;
-  --accent-white: #ffffff;
-  --accent-light-gray: #e0e0e0;
-  --accent-medium-gray: #b0b0b0;
+  /* IBM Terminal Colors */
+  --terminal-orange: #ff8c00;
+  --terminal-yellow: #ffcc00;
+  --terminal-amber: #ffb700;
+  --terminal-white: #ffffff;
+  --terminal-light-gray: #d0d0d0;
+  --terminal-gray: #a0a0a0;
+  --terminal-dark-gray: #606060;
   
   /* Text Colors */
   --text-primary: #ffffff;
@@ -25,217 +29,274 @@
   --text-subtle: #808080;
   
   /* Interactive Elements */
-  --button-bg: #ffcc00;
-  --button-text: #1a1a1a;
-  --button-hover: #ffdd44;
-  --link-color: #ffcc00;
-  --link-hover: #ffffff;
+  --button-bg: #ff8c00;
+  --button-text: #2a1810;
+  --button-hover: #ffaa33;
+  --link-color: #ff8c00;
+  --link-hover: #ffcc00;
   
-  /* Borders and Shadows */
-  --border-light: 1px solid #404040;
-  --border-yellow: 1px solid #ffcc00;
-  --shadow-clean: 0 2px 8px rgba(0, 0, 0, 0.2);
-  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.3);
+  /* Borders and Lines */
+  --border-terminal: 1px solid #ff8c00;
+  --border-subtle: 1px solid #4a3218;
+  --border-heavy: 2px solid #ff8c00;
+  
+  /* Shadows for depth */
+  --shadow-terminal: 0 0 0 1px #ff8c00;
+  --shadow-subtle: 0 1px 0 0 #4a3218;
 }
 
-/* Global Styles */
+/* IBM Terminal Global Styles */
 body {
-  background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
-  background-attachment: fixed;
-  color: var(--text-primary);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
+  background: var(--bg-primary);
+  color: var(--terminal-white);
+  font-family: 'Courier New', 'Consolas', 'Monaco', 'Lucida Console', monospace;
+  line-height: 1.4;
   min-height: 100vh;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-rendering: optimizeLegibility;
 }
 
-/* Clean Header Styling */
+/* IBM Terminal Header */
 .page-header {
   background: var(--bg-primary);
-  border-bottom: 1px solid var(--border-yellow);
-  box-shadow: var(--shadow-clean);
-  padding: 2rem 0;
+  border-bottom: var(--border-terminal);
+  padding: 1.5rem 0;
+  position: relative;
+}
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--terminal-orange);
 }
 
 .project-name {
-  color: var(--accent-white);
+  color: var(--terminal-orange);
   font-weight: 700;
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  letter-spacing: -0.02em;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .project-tagline {
-  color: var(--text-secondary);
-  font-size: 1.2rem;
+  color: var(--terminal-yellow);
+  font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
 }
 
-/* Clean Main Content */
+/* IBM Terminal Main Content */
 .main-content {
   background: var(--bg-secondary);
-  border: var(--border-light);
-  border-radius: 8px;
-  box-shadow: var(--shadow-clean);
-  margin: 2rem auto;
-  padding: 2.5rem;
+  border: var(--border-subtle);
+  border-top: var(--border-terminal);
+  margin: 1rem auto;
+  padding: 2rem;
   max-width: 1200px;
+  position: relative;
 }
 
-/* Consolidated Typography */
+.main-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--terminal-orange);
+  opacity: 0.5;
+}
+
+/* IBM Terminal Typography */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--accent-white);
+  color: var(--terminal-white);
   font-weight: 600;
-  line-height: 1.3;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border-light);
-  padding-bottom: 0.5rem;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  border-bottom: 2px solid var(--accent-yellow);
+  color: var(--terminal-orange);
+  border-bottom: var(--border-terminal);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  color: var(--accent-yellow);
+  color: var(--terminal-yellow);
+  border-bottom: var(--border-subtle);
+  padding-bottom: 0.25rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
+  color: var(--terminal-amber);
   border-bottom: none;
+  margin-top: 1rem;
 }
 
-/* Links */
+/* IBM Terminal Links */
 a {
-  color: var(--link-color);
+  color: var(--terminal-orange);
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: color 0.1s ease;
 }
 
 a:hover {
-  color: var(--link-hover);
+  color: var(--terminal-yellow);
   text-decoration: underline;
 }
 
-/* Tables */
+/* IBM Terminal Tables */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
   background: var(--bg-primary);
-  border: var(--border-light);
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: var(--shadow-clean);
+  border: var(--border-terminal);
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: var(--border-subtle);
+  border-right: var(--border-subtle);
 }
 
 th {
   background: var(--bg-secondary);
-  color: var(--accent-white);
-  padding: 1rem;
-  text-align: left;
+  color: var(--terminal-orange);
   font-weight: 600;
-  border-bottom: 1px solid var(--border-yellow);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: var(--border-terminal);
 }
 
-td {
-  padding: 0.8rem 1rem;
-  border-bottom: 1px solid var(--border-light);
-  color: var(--text-secondary);
+td:last-child, th:last-child {
+  border-right: none;
 }
 
 tr:hover {
-  background: rgba(255, 204, 0, 0.1);
-  transition: background 0.2s ease;
+  background: var(--bg-tertiary);
 }
 
-/* Status Indicators */
+/* IBM Terminal Status Indicators */
 .status-live {
-  color: var(--accent-yellow);
+  color: var(--terminal-orange);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
-/* Badges */
+.status-beta {
+  color: var(--terminal-yellow);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.status-dev {
+  color: var(--terminal-gray);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* IBM Terminal Badges */
+.badges {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
 .badge {
   display: inline-block;
-  padding: 0.3rem 0.8rem;
-  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  background: var(--bg-secondary);
+  color: var(--terminal-orange);
+  border: var(--border-terminal);
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
   font-size: 0.8rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin: 0.2rem;
   text-decoration: none;
-  background: var(--accent-yellow);
-  color: var(--bg-primary);
-  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.1s ease;
 }
 
 .badge:hover {
-  background: var(--button-hover);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-hover);
+  background: var(--terminal-orange);
+  color: var(--bg-primary);
+  text-decoration: none;
 }
 
-/* Code Blocks */
+/* IBM Terminal Code Blocks */
 code {
   background: var(--bg-primary);
-  color: var(--accent-yellow);
-  padding: 0.2rem 0.4rem;
-  border-radius: 3px;
-  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  color: var(--terminal-yellow);
+  padding: 0.1rem 0.3rem;
+  border: var(--border-subtle);
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
   font-size: 0.9em;
   font-weight: 500;
 }
 
 pre {
   background: var(--bg-primary);
-  border: var(--border-light);
-  border-radius: 6px;
+  border: var(--border-terminal);
   padding: 1rem;
   overflow-x: auto;
-  box-shadow: var(--shadow-clean);
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
+  line-height: 1.3;
 }
 
 pre code {
   background: none;
-  color: var(--text-primary);
-  font-size: 0.875rem;
-  line-height: 1.5;
+  border: none;
+  color: var(--terminal-white);
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
-/* Blockquotes */
+/* IBM Terminal Blockquotes */
 blockquote {
-  border-left: 3px solid var(--accent-yellow);
+  border-left: var(--border-heavy);
   background: var(--bg-primary);
-  padding: 1rem;
-  margin: 1.5rem 0;
-  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  color: var(--terminal-light-gray);
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
 }
 
 blockquote p {
-  color: var(--text-secondary);
-  font-style: italic;
   margin: 0;
 }
 
-/* Warning Sections */
+/* IBM Terminal Warning Sections */
 .warning {
   background: var(--bg-primary);
-  border: 1px solid var(--border-yellow);
-  border-radius: 6px;
+  border: var(--border-terminal);
   padding: 1rem;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
+  color: var(--terminal-white);
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
 }
 
 .warning::before {
@@ -243,50 +304,71 @@ blockquote p {
   margin-right: 0.5rem;
 }
 
-/* Lists */
+.warning strong {
+  color: var(--terminal-orange);
+  font-weight: 600;
+}
+
+/* IBM Terminal Lists */
 ul, ol {
-  color: var(--text-secondary);
+  margin: 1rem 0;
+  padding-left: 2rem;
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
 }
 
 li {
   margin: 0.5rem 0;
+  color: var(--terminal-light-gray);
+  line-height: 1.4;
 }
 
 li::marker {
-  color: var(--accent-yellow);
+  color: var(--terminal-yellow);
 }
 
-/* Horizontal Rules */
+li strong {
+  color: var(--terminal-white);
+  font-weight: 600;
+}
+
+/* IBM Terminal Horizontal Rules */
 hr {
   border: none;
   height: 1px;
-  background: var(--border-light);
-  margin: 2rem 0;
+  background: var(--terminal-orange);
+  margin: 1.5rem 0;
+  opacity: 0.5;
 }
 
-/* Footer */
+/* IBM Terminal Footer */
 .site-footer {
   background: var(--bg-primary);
-  border-top: 1px solid var(--border-light);
-  padding: 2rem 0;
-  text-align: center;
-  margin-top: 3rem;
-  font-size: 0.875rem;
+  border-top: var(--border-terminal);
+  color: var(--terminal-gray);
+  padding: 1.5rem 0;
+  text-align: left;
+  font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
+  font-size: 0.8rem;
 }
 
 .site-footer p {
-  color: var(--text-muted);
+  color: var(--terminal-gray);
   margin: 0.5rem 0;
 }
 
-/* Responsive Design */
+.site-footer-credits {
+  color: var(--terminal-gray);
+  font-weight: 400;
+}
+
+/* IBM Terminal Responsive */
 @media (max-width: 768px) {
   .project-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   .main-content {
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 1rem;
   }
   
@@ -309,28 +391,29 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-yellow);
+  background: var(--terminal-orange);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--button-hover);
+  background: var(--terminal-amber);
 }
 
-/* Selection */
+/* IBM Terminal Selection */
 ::selection {
-  background: var(--accent-yellow);
+  background: var(--terminal-orange);
   color: var(--bg-primary);
 }
 
-/* Clean Tool Links */
+/* IBM Terminal Tool Links */
 .tool-link {
-  color: var(--link-color);
+  color: var(--terminal-orange);
   font-weight: 600;
-  transition: all 0.2s ease;
+  text-decoration: underline;
+  text-decoration-color: var(--terminal-orange);
 }
 
 .tool-link:hover {
-  color: var(--link-hover);
-  text-decoration: underline;
+  color: var(--terminal-yellow);
+  text-decoration-color: var(--terminal-yellow);
 }
