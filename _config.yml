@@ -1,0 +1,55 @@
+# Jekyll Configuration for ClickyGPT.github.io
+title: ClickyGPT Web Applications
+description: "AI-driven web applications suite - Explore advanced prompt tools, simulators, and monetization solutions"
+url: "https://clickygpt.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: jekyll-theme-cayman
+
+# GitHub Pages specific
+repository: ClickyGPT/ClickyGPT.github.io
+branch: main
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .idea/
+  - .vscode/
+  - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Tools
+    url: /#quick-links
+  - title: About
+    url: /#mission
+
+# Social links
+social:
+  github: ClickyGPT
+  twitter: ClickyGPT
+  website: https://clickygpt.com
+
+# SEO settings
+author: ClickyGPT
+lang: en
+timezone: America/Los_Angeles
