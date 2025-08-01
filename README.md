@@ -33,10 +33,10 @@ Start your AI journey, explore advanced prompt tools, simulators, and even some 
 
 ### 🧙🏿‍♂️ Simulation Tools
 
-| Tool                             | Description                              | Link                                                                      | Status |
-|----------------------------------|------------------------------------------|---------------------------------------------------------------------------|--------|
-| **Simulation Bender 1**          | Creative AI simulations (Primary)        | [Open](https://simulacrum-cracker-80858768781.us-west1.run.app/)        | ✅ Live |
-| **Simulation Bender 2**          | Creative AI simulations (Secondary)      | [Open](https://studio--simulacrum-cracker.us-central1.hosted.app/)        | ✅ Live |
+| Tool                    | Description                         | Link                                                               | Status |
+|-------------------------|-------------------------------------|--------------------------------------------------------------------|--------|
+| **Simulation Bender 1** | Creative AI simulations (Primary)   | [Open](https://simulacrum-cracker-80858768781.us-west1.run.app/)   | ✅ Live |
+| **Simulation Bender 2** | Creative AI simulations (Secondary) | [Open](https://studio--simulacrum-cracker.us-central1.hosted.app/) | ✅ Live |
 
 ---
 
@@ -132,7 +132,7 @@ By using these tools, you agree to:
 
 ---
 
-<p align="center">
+<p>
   <i>Built with ❤️ by the ClickyGPT community</i><br>
   <a href="https://clickygpt.com">ClickyGPT.com</a> | 
   <a href="https://twitter.com/ClickyGPT">Follow @ClickyGPT</a>
