@@ -1,44 +1,53 @@
-# ClickyGPT.github.io
-# My (homemade) Web  Applications
-## Start your AI journey with ClickyGPT 🧠 now! 
-
-### PROMPT BUILDER ⚙️
-https://craft-prompt-builder-80858768781.us-west1.run.app/
-### GOOGLE-DORK PROMPTER 👁️‍🗨️
-https://google-dork-intelligence-querier-80858768781.us-west1.run.app
-### WEAPONSIZED-QUERY INJECTOR 🪖
-https://studio--randogpt.us-central1.hosted.app/
-### SIMULATION BENDER 1 🧙🏿‍♂️
-https://simulacrum-cracker-80858768781.us-west1.run.app/
-### SIMULATION BENDER 2 🧙🏿‍♂️
-https://studio--simulacrum-cracker.us-central1.hosted.app/
-```  
-===
-| 🔞+ |
 ---
-### [!WARNING Adult, X-Rated]|(🔞18+))  
+
+# ClickyGPT Web Applications 🧠
+
+Welcome to the **ClickyGPT** suite of homemade AI-driven web applications!  
+Start your AI journey, explore advanced prompt tools, simulators, and even some unique monetization solutions.  
+**[Visit ClickyGPT.com](https://clickygpt.com) for more!**
+
 ---
-| 🔞+ | 
-===
-``` 
-### UNRESTRICTED CHATBOT 🔞
-https://clickygpt-80858768781.us-west1.run.app/
-### OnlyFans MONETIZER 1 🤏🏿
-https://synthetic-hustle-system-dashboard-80858768781.us-west1.run.app/
-### OnlyFans MONETIZER 2 🤏🏿
-https://telegram-bot-design-tool-80858768781.us-west1.run.app/
-```  
-===
-| 🔞+ |
+
+## 🚀 Quick Links
+
+| Tool                              | Description                                               | Link                                                                                   |
+|------------------------------------|-----------------------------------------------------------|----------------------------------------------------------------------------------------|
+| **Prompt Builder ⚙️**             | Craft and optimize AI prompts easily                      | [Open](https://craft-prompt-builder-80858768781.us-west1.run.app/)                     |
+| **Google-Dork Prompter 👁️‍🗨️**   | Generate Google Dork queries for advanced searching       | [Open](https://google-dork-intelligence-querier-80858768781.us-west1.run.app)          |
+| **Weaponsized-Query Injector 🪖**  | Inject advanced queries for robust AI tasks               | [Open](https://studio--randogpt.us-central1.hosted.app/)                               |
+| **Simulation Bender 1 🧙🏿‍♂️**     | Run creative AI simulations (Instance 1)                  | [Open](https://simulacrum-cracker-80858768781.us-west1.run.app/)                       |
+| **Simulation Bender 2 🧙🏿‍♂️**     | Run creative AI simulations (Instance 2)                  | [Open](https://studio--simulacrum-cracker.us-central1.hosted.app/)                     |
+
 ---
-### [!WARNING Adult, X-Rated]|(🔞18+))  
+
+## 🔞 NSFW / Adult Tools
+
+> **Warning:** The following tools are for adults (18+) only!
+
+| Tool                                | Description                                  | Link                                                                                   |
+|--------------------------------------|----------------------------------------------|----------------------------------------------------------------------------------------|
+| **Unrestricted Chatbot 🔞**          | Unfiltered AI chatbot for adult use          | [Open](https://clickygpt-80858768781.us-west1.run.app/)                                |
+| **OnlyFans Monetizer 1 🤏🏿**         | Monetization strategies & dashboards         | [Open](https://synthetic-hustle-system-dashboard-80858768781.us-west1.run.app/)        |
+| **OnlyFans Monetizer 2 🤏🏿**         | Telegram bot design for monetization         | [Open](https://telegram-bot-design-tool-80858768781.us-west1.run.app/)                 |
+
 ---
-| 🔞+ | 
-===
-``` 
-# [👁️_👁️] #ClickyGPT 🧠 | #LearnAI 🎓 ClickyGPT.com 🧠| [👁️_👁️] |  #AiToolkits 🖇️ | @ClickyGPT 🧠 | [👁️_👁️]
 
+## ⚠️ Disclaimer
 
+- **18+ Content**: Some tools are intended for mature audiences only.  
+- **Use Responsibly**: These applications are for educational and experimental purposes.
+- **No Warranty**: Use at your own risk.
 
+---
 
+## 🌐 Social & Branding
 
+- [ClickyGPT.com 🧠](https://clickygpt.com)
+- Twitter: [@ClickyGPT](https://twitter.com/ClickyGPT)
+- Hashtags: #ClickyGPT #LearnAI #AiToolkits
+
+---
+
+## 👁️‍🗨️ Stay Curious. Build Smart. Explore Freely.
+
+---
