@@ -3,55 +3,49 @@
 
 @import "{{ site.theme }}";
 
-/* ClickyGPT IBM Terminal Aesthetic - Blue, Orange & Yellow on Nubian Dark Chocolate */
+/* ClickyGPT Terminal - High Contrast Black & Yellow */
 
 :root {
-  /* Nubian Dark Chocolate Palette */
-  --bg-primary: #2a1810;
-  --bg-secondary: #3d2817;
-  --bg-tertiary: #4a3218;
-  --bg-gradient-start: #2a1810;
-  --bg-gradient-end: #3d2817;
+  /* Pure Terminal Black */
+  --bg-primary: #000000;
+  --bg-secondary: #111111;
+  --bg-tertiary: #222222;
+  --bg-gradient-start: #000000;
+  --bg-gradient-end: #000000;
   
-  /* IBM Classic Colors */
-  --ibm-blue: #0066ff;
-  --ibm-light-blue: #0080ff;
-  --ibm-cyan: #00bfff;
-  --terminal-orange: #ff8c00;
-  --terminal-yellow: #ffcc00;
-  --terminal-amber: #ffb700;
+  /* High Contrast Terminal Colors */
+  --terminal-yellow: #ffff00;
+  --terminal-bright-yellow: #ffffaa;
   --terminal-white: #ffffff;
-  --terminal-light-gray: #d0d0d0;
-  --terminal-gray: #a0a0a0;
-  --terminal-dark-gray: #606060;
+  --terminal-light-gray: #cccccc;
+  --terminal-gray: #888888;
+  --terminal-dark-gray: #444444;
   
   /* Text Colors */
   --text-primary: #ffffff;
-  --text-secondary: #d0d0d0;
-  --text-muted: #a0a0a0;
-  --text-subtle: #808080;
+  --text-secondary: #ffff00;
+  --text-muted: #888888;
+  --text-subtle: #444444;
   
   /* Interactive Elements */
-  --button-primary: #0066ff;
-  --button-secondary: #ff8c00;
-  --button-text: #ffffff;
-  --link-primary: #0066ff;
-  --link-secondary: #ff8c00;
-  --link-hover: #00bfff;
+  --button-primary: #ffff00;
+  --button-text: #000000;
+  --link-primary: #ffff00;
+  --link-hover: #ffffff;
+  --link-secondary: #ffffff;
   
   /* Borders and Lines */
-  --border-blue: 1px solid #0066ff;
-  --border-orange: 1px solid #ff8c00;
-  --border-yellow: 1px solid #ffcc00;
-  --border-subtle: 1px solid #4a3218;
-  --border-heavy: 2px solid #0066ff;
+  --border-yellow: 1px solid #ffff00;
+  --border-white: 1px solid #ffffff;
+  --border-subtle: 1px solid #222222;
+  --border-heavy: 2px solid #ffff00;
   
   /* Shadows for depth */
   --shadow-terminal: 0 0 0 1px #ff8c00;
   --shadow-subtle: 0 1px 0 0 #4a3218;
 }
 
-/* IBM Terminal Global Styles */
+/* High Contrast Terminal Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -70,10 +64,10 @@ body {
   border-bottom: var(--border-heavy);
 }
 
-/* IBM Terminal Header */
+/* High Contrast Terminal Header */
 .page-header {
   background: var(--bg-secondary);
-  border-bottom: var(--border-blue);
+  border-bottom: var(--border-yellow);
   padding: 1.5rem 0;
   position: relative;
 }
@@ -85,11 +79,11 @@ body {
   left: 0;
   right: 0;
   height: 1px;
-  background: var(--ibm-blue);
+  background: var(--terminal-yellow);
 }
 
 .project-name {
-  color: var(--ibm-blue);
+  color: var(--terminal-yellow);
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
@@ -98,18 +92,18 @@ body {
 }
 
 .project-tagline {
-  color: var(--terminal-yellow);
+  color: var(--terminal-white);
   font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-/* IBM Terminal Main Content */
+/* High Contrast Terminal Main Content */
 .main-content {
   background: var(--bg-secondary);
   border: var(--border-subtle);
-  border-top: var(--border-terminal);
+  border-top: var(--border-yellow);
   margin: 1rem auto;
   padding: 2rem;
   max-width: 1200px;
@@ -123,13 +117,13 @@ body {
   left: 0;
   right: 0;
   height: 1px;
-  background: var(--terminal-orange);
+  background: var(--terminal-yellow);
   opacity: 0.5;
 }
 
-/* IBM Terminal Typography */
+/* High Contrast Terminal Typography */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--ibm-blue);
+  color: var(--terminal-yellow);
   font-weight: 600;
   line-height: 1.2;
   margin-top: 1.5rem;
@@ -141,8 +135,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 1.75rem;
   font-weight: 700;
-  color: var(--ibm-blue);
-  border-bottom: var(--border-blue);
+  color: var(--terminal-yellow);
+  border-bottom: var(--border-yellow);
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -150,15 +144,15 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--ibm-light-blue);
-  border-bottom: var(--border-subtle);
+  color: var(--terminal-bright-yellow);
+  border-bottom: var(--border-white);
   padding-bottom: 0.25rem;
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--ibm-cyan);
+  color: var(--terminal-white);
   border-bottom: none;
   margin-top: 1rem;
 }
@@ -177,16 +171,16 @@ a:hover {
 }
 
 a:visited {
-  color: var(--ibm-cyan);
+  color: var(--terminal-white);
 }
 
-/* IBM Terminal Tables */
+/* High Contrast Terminal Tables */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
   background: var(--bg-primary);
-  border: var(--border-blue);
+  border: var(--border-yellow);
   font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
 }
 
@@ -199,11 +193,11 @@ th, td {
 
 th {
   background: var(--bg-secondary);
-  color: var(--ibm-blue);
+  color: var(--terminal-yellow);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: var(--border-blue);
+  border-bottom: var(--border-yellow);
 }
 
 td:last-child, th:last-child {
@@ -214,16 +208,16 @@ tr:hover {
   background: var(--bg-tertiary);
 }
 
-/* IBM Terminal Status Indicators */
+/* High Contrast Terminal Status Indicators */
 .status-live {
-  color: var(--terminal-orange);
+  color: var(--terminal-yellow);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .status-beta {
-  color: var(--terminal-yellow);
+  color: var(--terminal-white);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -236,7 +230,7 @@ tr:hover {
   letter-spacing: 1px;
 }
 
-/* IBM Terminal Badges */
+/* High Contrast Terminal Badges */
 .badges {
   display: flex;
   gap: 1rem;
@@ -247,8 +241,8 @@ tr:hover {
 .badge {
   display: inline-block;
   padding: 0.25rem 0.75rem;
-  background: var(--ibm-blue);
-  color: var(--terminal-white);
+  background: var(--terminal-yellow);
+  color: var(--bg-primary);
   border: none;
   font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
   font-size: 0.8rem;
@@ -260,21 +254,21 @@ tr:hover {
 }
 
 .badge:hover {
-  background: var(--terminal-orange);
+  background: var(--terminal-white);
   color: var(--bg-primary);
   text-decoration: none;
 }
 
 .badge.secondary {
   background: var(--bg-secondary);
-  color: var(--terminal-yellow);
-  border: var(--border-yellow);
+  color: var(--terminal-white);
+  border: var(--border-white);
 }
 
-/* IBM Terminal Code Blocks */
+/* High Contrast Terminal Code Blocks */
 code {
   background: var(--bg-secondary);
-  color: var(--ibm-cyan);
+  color: var(--terminal-yellow);
   padding: 0.1rem 0.3rem;
   border: var(--border-subtle);
   font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
@@ -284,7 +278,7 @@ code {
 
 pre {
   background: var(--bg-secondary);
-  border: var(--border-blue);
+  border: var(--border-yellow);
   padding: 1rem;
   overflow-x: auto;
   font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
@@ -299,7 +293,7 @@ pre code {
   font-weight: 400;
 }
 
-/* IBM Terminal Blockquotes */
+/* High Contrast Terminal Blockquotes */
 blockquote {
   border-left: var(--border-heavy);
   background: var(--bg-secondary);
@@ -313,10 +307,10 @@ blockquote p {
   margin: 0;
 }
 
-/* IBM Terminal Warning Sections */
+/* High Contrast Terminal Warning Sections */
 .warning {
   background: var(--bg-secondary);
-  border: var(--border-orange);
+  border: var(--border-yellow);
   padding: 1rem;
   margin: 1rem 0;
   color: var(--terminal-white);
@@ -329,11 +323,11 @@ blockquote p {
 }
 
 .warning strong {
-  color: var(--terminal-orange);
+  color: var(--terminal-yellow);
   font-weight: 600;
 }
 
-/* IBM Terminal Lists */
+/* High Contrast Terminal Lists */
 ul, ol {
   margin: 1rem 0;
   padding-left: 2rem;
@@ -351,23 +345,23 @@ li::marker {
 }
 
 li strong {
-  color: var(--ibm-blue);
+  color: var(--terminal-yellow);
   font-weight: 600;
 }
 
-/* IBM Terminal Horizontal Rules */
+/* High Contrast Terminal Horizontal Rules */
 hr {
   border: none;
   height: 1px;
-  background: var(--ibm-blue);
+  background: var(--terminal-yellow);
   margin: 1.5rem 0;
   opacity: 0.5;
 }
 
-/* IBM Terminal Footer */
+/* High Contrast Terminal Footer */
 .site-footer {
   background: var(--bg-primary);
-  border-top: var(--border-blue);
+  border-top: var(--border-yellow);
   color: var(--terminal-gray);
   padding: 1.5rem 0;
   text-align: left;
@@ -405,7 +399,7 @@ hr {
   }
 }
 
-/* Scrollbar Styling */
+/* High Contrast Terminal Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -415,29 +409,29 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--ibm-blue);
+  background: var(--terminal-yellow);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--ibm-light-blue);
+  background: var(--terminal-bright-yellow);
 }
 
-/* IBM Terminal Selection */
+/* High Contrast Terminal Selection */
 ::selection {
-  background: var(--ibm-blue);
-  color: var(--terminal-white);
+  background: var(--terminal-yellow);
+  color: var(--bg-primary);
 }
 
-/* IBM Terminal Tool Links */
+/* High Contrast Terminal Tool Links */
 .tool-link {
-  color: var(--ibm-cyan);
+  color: var(--terminal-white);
   font-weight: 600;
   text-decoration: underline;
-  text-decoration-color: var(--ibm-cyan);
+  text-decoration-color: var(--terminal-white);
 }
 
 .tool-link:hover {
-  color: var(--ibm-blue);
-  text-decoration-color: var(--ibm-blue);
+  color: var(--terminal-yellow);
+  text-decoration-color: var(--terminal-yellow);
 }
