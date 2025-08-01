@@ -5,9 +5,11 @@ title: ClickyGPT Web Applications
 
 # ClickyGPT Web Applications 🧠
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-ClickyGPT.com-blue.svg)](https://clickygpt.com)
-[![Twitter](https://img.shields.io/badge/Twitter-@ClickyGPT-1DA1F2.svg)](https://twitter.com/ClickyGPT)
+<div class="badges">
+  <a href="https://opensource.org/licenses/MIT" class="badge badge-mit">License: MIT</a>
+  <a href="https://clickygpt.com" class="badge badge-website">Website: ClickyGPT.com</a>
+  <a href="https://twitter.com/ClickyGPT" class="badge badge-twitter">Twitter: @ClickyGPT</a>
+</div>
 
 Welcome to the **ClickyGPT** suite of homemade AI-driven web applications!  
 Start your AI journey, explore advanced prompt tools, simulators, and even some unique monetization solutions.  
@@ -30,28 +32,30 @@ Start your AI journey, explore advanced prompt tools, simulators, and even some 
 
 | Tool                             | Description                                         | Link                                                                          | Status |
 |----------------------------------|-----------------------------------------------------|-------------------------------------------------------------------------------|--------|
-| **Prompt Builder ⚙️**            | Craft and optimize AI prompts easily                | [Open](https://craft-prompt-builder-80858768781.us-west1.run.app/)            | ✅ Live |
-| **Google-Dork Prompter 👁️‍🗨️** | Generate Google Dork queries for advanced searching | [Open](https://google-dork-intelligence-querier-80858768781.us-west1.run.app) | ✅ Live |
-| **Weaponized-Query Injector 🪖** | Inject advanced queries for robust AI tasks         | [Open](https://studio--randogpt.us-central1.hosted.app/)                      | ✅ Live |
+| **Prompt Builder ⚙️**            | Craft and optimize AI prompts easily                | [Open](https://craft-prompt-builder-80858768781.us-west1.run.app/){:.tool-link}            | <span class="status-live">✅ Live</span> |
+| **Google-Dork Prompter 👁️‍🗨️** | Generate Google Dork queries for advanced searching | [Open](https://google-dork-intelligence-querier-80858768781.us-west1.run.app){:.tool-link} | <span class="status-live">✅ Live</span> |
+| **Weaponized-Query Injector 🪖** | Inject advanced queries for robust AI tasks         | [Open](https://studio--randogpt.us-central1.hosted.app/){:.tool-link}                      | <span class="status-live">✅ Live</span> |
 
 ### 🧙🏿‍♂️ Simulation Tools
 
 | Tool                    | Description                         | Link                                                               | Status |
 |-------------------------|-------------------------------------|--------------------------------------------------------------------|--------|
-| **Simulation Bender 1** | Creative AI simulations (Primary)   | [Open](https://simulacrum-cracker-80858768781.us-west1.run.app/)   | ✅ Live |
-| **Simulation Bender 2** | Creative AI simulations (Secondary) | [Open](https://studio--simulacrum-cracker.us-central1.hosted.app/) | ✅ Live |
+| **Simulation Bender 1** | Creative AI simulations (Primary)   | [Open](https://simulacrum-cracker-80858768781.us-west1.run.app/){:.tool-link}   | <span class="status-live">✅ Live</span> |
+| **Simulation Bender 2** | Creative AI simulations (Secondary) | [Open](https://studio--simulacrum-cracker.us-central1.hosted.app/){:.tool-link} | <span class="status-live">✅ Live</span> |
 
 ---
 
 ## 🔞 NSFW / Adult Tools
 
-> **⚠️ Warning:** The following tools are for adults (18+) only! All tools marked with 🔞 contain adult content.
+<div class="warning">
+<strong>Warning:</strong> The following tools are for adults (18+) only! All tools marked with 🔞 contain adult content.
+</div>
 
 | Tool                          | Description                          | Link                                                                            | Status |
 |-------------------------------|--------------------------------------|---------------------------------------------------------------------------------|--------|
-| **Unrestricted Chatbot 🔞**   | Unfiltered AI chatbot for adult use  | [Open](https://clickygpt-80858768781.us-west1.run.app/)                         | ✅ Live |
-| **OnlyFans Monetizer 1 🤏🏿** | Monetization strategies & dashboards | [Open](https://synthetic-hustle-system-dashboard-80858768781.us-west1.run.app/) | ✅ Live |
-| **OnlyFans Monetizer 2 🤏🏿** | Telegram bot design for monetization | [Open](https://telegram-bot-design-tool-80858768781.us-west1.run.app/)          | ✅ Live |
+| **Unrestricted Chatbot 🔞**   | Unfiltered AI chatbot for adult use  | [Open](https://clickygpt-80858768781.us-west1.run.app/){:.tool-link}                         | <span class="status-live">✅ Live</span> |
+| **OnlyFans Monetizer 1 🤏🏿** | Monetization strategies & dashboards | [Open](https://synthetic-hustle-system-dashboard-80858768781.us-west1.run.app/){:.tool-link} | <span class="status-live">✅ Live</span> |
+| **OnlyFans Monetizer 2 🤏🏿** | Telegram bot design for monetization | [Open](https://telegram-bot-design-tool-80858768781.us-west1.run.app/){:.tool-link}          | <span class="status-live">✅ Live</span> |
 
 ---
 

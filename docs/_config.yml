@@ -8,6 +8,9 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 theme: jekyll-theme-cayman
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # GitHub Pages specific
 repository: ClickyGPT/ClickyGPT.github.io
