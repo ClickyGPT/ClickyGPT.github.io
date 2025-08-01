@@ -6,7 +6,7 @@
 
 Welcome to the **ClickyGPT** suite of homemade AI-driven web applications!  
 Start your AI journey, explore advanced prompt tools, simulators, and even some unique monetization solutions.  
-**[Visit ClickyGPT.com](https://clickygpt.com) for more!**
+**[Visit ClickyGPT.github.io](https://clickygpt.github.io) for more!**
 
 ---
 
@@ -44,7 +44,7 @@ Start your AI journey, explore advanced prompt tools, simulators, and even some 
 
 ## 🌐 Social & Branding
 
-- [ClickyGPT.com 🧠](https://clickygpt.com)
+- [ClickyGPT.github.io 🧠](https://clickygpt.github.io)
 - Twitter: [@ClickyGPT](https://twitter.com/ClickyGPT)
 - Hashtags: `#ClickyGPT` `#LearnAI` `#AiToolkits`
 
@@ -59,7 +59,7 @@ Start your AI journey, explore advanced prompt tools, simulators, and even some 
 - 🛰️ Build fast & vanish
 
 > Prompt. Deploy. Repeat.  
-> `#PromptSecrets` | `#ToolOps` | `@TheoristX 🧠` | `ClickyGPT.com 🖇️`
+> `#PromptSecrets` | `#ToolOps` | `@TheoristX 🧠` | `ClickyGPT.gitgub.io 🖇️`
 
 ---
 
