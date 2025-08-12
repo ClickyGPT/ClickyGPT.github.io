@@ -1,9 +1,9 @@
 ---
 
 layout: default
-title: ClickyGPT Web Applications
-permalink: /
-------------
+title: "ClickyGPT Web Applications"
+permalink: "/"
+--------------
 
 # 🚀 ClickyGPT Web Applications 🧠
 
